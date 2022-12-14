@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/DEV/Miniprojet/src/test/java/test01.java">
+        <classes>
+        <class name="test01"></class>
+        <class name="test02"></class>
+          <class name="test03"></class>
+    </classes>
+    </test>
+
+</suite>
