@@ -1,6 +1,9 @@
+
+
 import Miniprojet.PageAccueil;
 import Miniprojet.PageChekoutOv;
 import Miniprojet.PageProduct;
+
 import Miniprojet.Pageyourcart;
 import commun.ClassMere;
 import org.testng.annotations.Test;
@@ -30,9 +33,9 @@ public class test03 extends ClassMere {
             p3.Presence1();
             p3.Presence2();
             p3.CHEKOUT();
+/*
 
-
-            MiniProjet.PageChekout p4 = new MiniProjet.PageChekout(driver);
+            PageChekout p4 = new PageChekout(driver);
             String nom="Trabelsi";
             p4.saisirnom(nom);
 
@@ -46,6 +49,8 @@ public class test03 extends ClassMere {
             PageChekoutOv p5 = new PageChekoutOv(driver);
             p5.CHECKOUTOVERVIEW();
             p5.cliquerBoutonFinish();
+
+ */
 
         }
     }
